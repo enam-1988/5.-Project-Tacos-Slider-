@@ -1,0 +1,214 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Poppins', sans-serif;
+}
+
+p{
+  font-family: 'Poppins', sans-serif;
+}
+
+a{
+  font-family: 'Poppins', sans-serif;
+}
+
+a,a{
+  text-decoration: none;
+}
+
+/*GLOBAL CSS END*/
+/****************/
+
+
+/*BannerSection Start ////*************************************/
+
+
+/*Navbar Start*/
+
+.navbar{
+  z-index: 1;
+}
+
+.navbar-light .navbar-nav .nav-link{
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Bangers', cursive;
+  color: rgba(0,0,0,.5);
+  margin-right: 20px;
+}
+
+.nav-item{
+  position: relative;
+  transition: 0.6s;
+}
+
+.nav-link{
+  display: block;
+    transition: 0.6s;
+}
+
+.layer{
+  position: absolute;
+  height: 100%;
+  background-color: rgb(0,0,0,.7) ! important;
+  transition: 0.5s;
+}
+
+.nav-item:hover .layer{
+  width: 80%;
+  transition: 0.5s;
+}
+
+/*Navbar End*/
+
+
+/*Banner Section Start*/
+.banner{
+  width: 100%;
+  height: 1000vh;
+}
+
+
+.multiscroll{
+  z-index: 0;
+}
+
+/*////*/
+.one{
+  background-color: #f8cd00 ! important;
+  position: relative;
+}
+
+.one img{
+  width: 250px;
+  margin-left: 100px;
+}
+
+.one h1{
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  font-family: 'Bangers', cursive;
+  font-size: 80px;
+
+}
+/**/
+.four{
+  background-color: rgb(248,205,0,.3);
+  position: relative;
+}
+
+.four img{
+    width: 250px;
+    margin-left: 35%;
+}
+
+.four h1{
+  position: absolute;
+  top: 50%;
+  right: 58%;
+  transform: translate(-50%, -50%);
+  font-family: 'Bangers', cursive;
+  font-size: 50px;
+}
+/*/////*/
+
+.two{
+  background-color: #f8cd00 ! important;
+  position: relative;
+}
+
+.two img{
+  width: 250px;
+  margin-left: 100px;
+}
+
+.two h1{
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  font-family: 'Bangers', cursive;
+  font-size: 80px;
+
+}
+/**/
+.five{
+  background-color: rgb(248,205,0,.3);
+  position: relative;
+}
+
+.five img{
+    width: 250px;
+    margin-left: 35%;
+}
+
+.five h1{
+  position: absolute;
+  top: 50%;
+  right: 58%;
+  transform: translate(-50%, -50%);
+  font-family: 'Bangers', cursive;
+  font-size: 50px;
+}
+/*////*/
+
+.three{
+  background-color: #f8cd00 ! important;
+  position: relative;
+}
+
+.three img{
+  width: 250px;
+  margin-left: 100px;
+}
+
+.three h1{
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  font-family: 'Bangers', cursive;
+  font-size: 80px;
+
+}
+/**/
+.six{
+  background-color: rgb(248,205,0,.3);
+  position: relative;
+}
+
+.six img{
+    width: 250px;
+    margin-left: 35%;
+}
+
+.six h1{
+  position: absolute;
+  top: 50%;
+  right: 58%;
+  transform: translate(-50%, -50%);
+  font-family: 'Bangers', cursive;
+  font-size: 50px;
+}
+/*/////*/
+/*Banner Section End*/
+
+
+/*Do Section Start*/
+
+.do{
+  width: 100%;
+  height: 100vh;
+}
+
+
+/*Do Section End*/
